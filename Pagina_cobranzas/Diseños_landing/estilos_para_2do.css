@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Sora:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Sora:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Play&family=Sora:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+
+}
+header{
+    font-family: 'Play', sans-serif;
+    background: rgba(255, 255, 255, 0.63);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor_elementos{
+    padding: 10px 60px 10px 60px;
+}
+.contenedor_elementos ul {
+    list-style: none; 
+    padding: 0; 
+  }
+
+.contenedor_elementos li{
+    display: inline-block;
+    margin-top: 15px;
+}
+.logo img{
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.contenedor_elementos a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 20px 0px 20px;
+}
+.elementos_interac ul {
+    list-style: none; 
+    padding: 0; 
+}
+.elementos_interac li{
+    display: inline-block;
+    margin-top: 10px;
+}
+.elementos_interac li.active{
+    background-color: #D50000;
+    height: 30px;
+    padding-top: 4px;
+}
+.elementos_interac li.active a{
+    color: aliceblue;
+}
+.elementos_interac a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 20px 0px 20px;
+}
+.elementos_interac{
+    font-family: 'Sora', sans-serif;
+    padding: 10px 60px 10px 60px; 
+}
+
+section .carrousel_contain{
+    top: 0;
+   height: 20%;
+}
+
+.carrousel_contain {
+    position: relative;
+}
+
+.intro{
+
+        top: 450px; /* ajusta este valor para superponer la tarjeta en la posición deseada */
+        left: 0px; /* ajusta este valor para superponer la tarjeta en la posición deseada */
+        right: 0;
+        background-image: url("/static/img/8116-removebg-preview.png");
+        background-size: cover;
+        background-position: 0px 10cm;  
+}
+.carousel-item img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+   
+}
+
+.imagen_marc{
+    height: 180px;
+    width: 200px;
+    box-shadow: -3px -2px 36px 7px #9e9e9e;
+-webkit-box-shadow: -3px -2px 36px 7px #9e9e9e;
+-moz-box-shadow: -3px -2px 36px 7px #9e9e9e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 40px 0px 40px;
+    background: white;
+}
+.imagen_marc img{
+    height: 100px;
+}
+
+.titulo h2{
+    color: #D50000;
+}
+.imagen{
+    padding-right: 0;
+    border-right: #D50000 solid 10px;
+}
+.imagen img{
+    height: 400px;
+    width: 100%;
+    
+}
+.texto{
+    height: 300px;
+    margin-top: 20px;
+    width: 600px;
+    color: black;
+    margin-left: 30px;
+
+}
+
+.contenedor_us{
+    display: flex;
+
+}
+
+.marcas .titulo h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+}
+
+.contenedor_2 h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+.contenedor_2{
+    font-family: 'Sora', sans-serif;
+}
+
+.card {
+    border-radius: 0.75rem;
+    background-color: white;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),
+    0 2px 4px -2px rgba(0,0,0,.1);
+  }
+  
+  .header {
+    position: relative;
+    background-clip: border-box;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 0.75rem;
+    background-color: #b10505;
+    color: aliceblue;
+    box-shadow: 0 10px 15px -3px rgba(33,150,243,.4),0 4px 6px -4px rgba(33,150,243,.4);
+    height: 50px;
+  }
+  
+  .info {
+    border: none;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+
+  
+  .footer {
+    padding: 0.75rem;
+    border: 1px solid rgb(236 239 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 140, 255, 0.082);
+  }
+  
+  .tag {
+    font-weight: 300;
+    font-size: .75rem;
+    display: block;
+  }
+  
+  .action {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 6px -1px rgba(33,150,243,.4),0 2px 4px -2px rgba(33,150,243,.4);
+    color: rgb(255 255 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .75rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #b10505;
+    border-radius: 0.5rem;
+  }
